@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="kemal"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-27 10:31:51 &#214;&#214;"/>
+        <attribute name="created" value="a2VtYWw7REVTS1RPUC1VQk9LMzNDOzIwMjMtMTAtMjc7MTA6MDM6MTYgw5bDljszMTIy"/>
+        <attribute name="edited" value="a2VtYWw7REVTS1RPUC1VQk9LMzNDOzIwMjMtMTAtMjc7MTA6MzE6NTEgw5bDljszOzMyMzI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="f&#305;yat1" type="Integer" array="False" size=""/>
+            <declare name="f&#305;yat2" type="Real" array="False" size=""/>
+            <output expression="&quot;1.fiyat&#305; giriniz&quot;" newline="True"/>
+            <input variable="f&#305;yat1"/>
+            <assign variable="f&#305;yat2" expression="(f&#305;yat1)+(f&#305;yat1)*18/100"/>
+            <output expression="&quot;yeni fiyat&#305;n&#305;z&quot; &amp;f&#305;yat2" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

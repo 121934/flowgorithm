@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="kemal"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-25 08:19:47 &#214;S"/>
+        <attribute name="created" value="a2VtYWw7REVTS1RPUC1VQk9LMzNDOzIwMjMtMTAtMjU7MDg6MTc6MTcgw5ZTOzMwMDI="/>
+        <attribute name="edited" value="a2VtYWw7REVTS1RPUC1VQk9LMzNDOzIwMjMtMTAtMjU7MDg6MTk6NDcgw5ZTOzE7MzExNQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, y, ort" type="Integer" array="False" size=""/>
+            <input variable="x"/>
+            <input variable="y"/>
+            <assign variable="ort" expression="(x*40/100)+(y*60/100)"/>
+            <output expression="ort" newline="True"/>
+            <if expression="ort&gt;50">
+                <then>
+                    <output expression="&quot;ge&#231;tiniz&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;kald&#305;n&#305;z&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

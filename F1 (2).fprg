@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="kemal"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-27 10:12:38 &#214;&#214;"/>
+        <attribute name="created" value="a2VtYWw7REVTS1RPUC1VQk9LMzNDOzIwMjMtMTAtMjc7MTA6MDM6MTYgw5bDljszMTIy"/>
+        <attribute name="edited" value="a2VtYWw7REVTS1RPUC1VQk9LMzNDOzIwMjMtMTAtMjc7MTA6MTI6Mzcgw5bDljsxOzMyMzM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <assign variable="i" expression="-1"/>
+            <do expression="i&lt;99">
+                <assign variable="i" expression="i+2"/>
+                <output expression="&quot;&quot;&amp;i" newline="True"/>
+            </do>
+        </body>
+    </function>
+</flowgorithm>
